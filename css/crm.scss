@@ -32,6 +32,9 @@ $light-gray: #ccc;
 *******************************************************************************/
 html{
 	font-size:62.5% !important;
+	.s4-ca{
+		margin-left:0;
+	} 
 	body{
 		#header{
 			border-bottom: 1px solid $light-gray;
@@ -99,6 +102,7 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 				box-sizing: border-box;         /* Opera/IE 8+ */
+				background:url("https://at.avanade.com/sites/CustomerRecordsManagement/Style Library/css/images/bg.png") #EFEFEF repeat-x scroll top right; border-bottom:1px solid #ddd;
 			}
 			text-shadow: none !important;
 			color:$dark;						
@@ -131,15 +135,45 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 				width: 75%;
 				float: left;
 				padding: 10px 20px;
+				box-shadow: 0 0 4px #CCCCCC; 
+				background-color:#ffffff
 			}
 			.side-bar{
 				width: 25%;
 				float: right;
 				padding:0;
+				ul.dfwp-list li .link-item a:before{
+					content:"> "; text-decoration:none !important;
+					&:hover{ text-decoration:none}
+				}
+				.groupheader{
+					border-bottom: 1px solid #DEDEDE;
+					color: #46464A;
+					font-family:$segoe; 
+					font-size: 20px; 
+					font-weight: lighter;       
+					margin: 5px 0 10px;         
+					padding-bottom: 14px;
+				}
+				ul.dfwp-list{ 
+					margin: 0; 
+					padding-right: 0;
+					div.item {
+						overflow: hidden;
+						padding-left: 0;
+						padding-right: 0;
+					}
+				}  	
+				.rm-layout .side-bar ul.dfwp-list li .link-item a:link, 
+				.rm-layout .side-bar ul.dfwp-list li .link-item a:hover,
+				.rm-layout .side-bar ul.dfwp-list li .link-item a:visited{ 
+					color: #009FD8;
+				}
 			}
 			.subcol-inner{
 				padding: 10px 20px;
 				width: 100%;
+				background-image:none;				
 			}
 			.slider{
 				margin-bottom: 4%;
@@ -147,6 +181,7 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 			.tiles{
 			    overflow: hidden;
 			    clear: both;
+			    margin-bottom: 4%;
 				ul.dfwp-list li .link-item a,
 				.groupheader.item.medium{
 					color: $white;
@@ -218,8 +253,33 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 						right: 0;						
 					}			    
 				}
-
-			}	
+			}
+			.bottom-content{
+				position: relative;
+				.groupheader{
+					text-align: center;
+					font-size: 14px;
+					font-weight: 600;
+					}
+				.customer-records{
+					width: 50%;
+					float: left;
+					.dfwp-list{
+						margin-left: 35px !important;
+						li{
+							list-style-type: decimal;
+						}
+					}	
+				}
+				.temporary-documents{
+					@extend .customer-records;
+					.dfwp-list{
+						li{
+							list-style-type: none;
+						}
+					}	
+				}
+			}
 /******************************************************************************                                                                     
 88888888ba                                                                      
 88      "8b                 ,d       ,d                                         
