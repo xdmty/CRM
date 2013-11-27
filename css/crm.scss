@@ -146,6 +146,15 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 					content:"> "; text-decoration:none !important;
 					&:hover{ text-decoration:none}
 				}
+				h2{
+				    border-bottom: 1px solid #DEDEDE;
+				    color: #46464A;
+				    font-family: $segoe;
+				    font-size: 20px;
+				    font-weight: lighter;
+				    margin: 5px 0 10px;
+				    padding-bottom: 14px;
+				}
 				.groupheader{
 					border-bottom: 1px solid #DEDEDE;
 					color: #46464A;
