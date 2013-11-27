@@ -102,8 +102,8 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
 				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
 				box-sizing: border-box;         /* Opera/IE 8+ */
-				background:url("https://at.avanade.com/sites/CustomerRecordsManagement/Style Library/css/images/bg.png") #EFEFEF repeat-x scroll top right; border-bottom:1px solid #ddd;
 			}
+			background:url("https://at.avanade.com/sites/CustomerRecordsManagement/Style Library/css/images/bg.png") #EFEFEF repeat-x scroll top right; border-bottom:1px solid #ddd;
 			text-shadow: none !important;
 			color:$dark;						
 			p{font-family:$segoe; font-size:12px;}
@@ -256,16 +256,26 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 			}
 			.bottom-content{
 				position: relative;
+				ul{
+					background-color:#E2E2E2;
+					li{
+						border-bottom:4px solid #FFFFFF;
+					}
+				}
 				.groupheader{
 					text-align: center;
 					font-size: 14px;
 					font-weight: 600;
+					background-color:#fff;
+					margin-bottom: 0px;
 					}
 				.customer-records{
 					width: 50%;
 					float: left;
 					.dfwp-list{
-						margin-left: 35px !important;
+						list-style-position: inside;
+						font-size: 20px;
+						font-weight: bold;
 						li{
 							list-style-type: decimal;
 						}
@@ -274,6 +284,7 @@ Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88
 				.temporary-documents{
 					@extend .customer-records;
 					.dfwp-list{
+						margin-left:10px; 
 						li{
 							list-style-type: none;
 						}

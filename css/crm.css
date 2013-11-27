@@ -92,6 +92,8 @@ html body .HomeLayout h2 {
   text-align: center;
 }
 html body .rm-layout {
+  background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style Library/css/images/bg.png") #efefef repeat-x scroll top right;
+  border-bottom: 1px solid #ddd;
   text-shadow: none !important;
   color: #858585;
   /******************************************************************************                                                                       
@@ -124,8 +126,6 @@ html body .rm-layout * {
   /* Firefox, other Gecko */
   box-sizing: border-box;
   /* Opera/IE 8+ */
-  background: url("https://at.avanade.com/sites/CustomerRecordsManagement/Style Library/css/images/bg.png") #efefef repeat-x scroll top right;
-  border-bottom: 1px solid #ddd;
 }
 html body .rm-layout p {
   font-family: Segoe UI, Helvetica, Arial !important;
@@ -306,20 +306,33 @@ html body .rm-layout .tiles .green img[id^="MSOImageWebPart"] {
 html body .rm-layout .bottom-content {
   position: relative;
 }
+html body .rm-layout .bottom-content ul {
+  background-color: #E2E2E2;
+}
+html body .rm-layout .bottom-content ul li {
+  border-bottom: 4px solid #FFFFFF;
+}
 html body .rm-layout .bottom-content .groupheader {
   text-align: center;
   font-size: 14px;
   font-weight: 600;
+  background-color: #fff;
+  margin-bottom: 0px;
 }
 html body .rm-layout .bottom-content .customer-records, html body .rm-layout .bottom-content .temporary-documents {
   width: 50%;
   float: left;
 }
 html body .rm-layout .bottom-content .customer-records .dfwp-list, html body .rm-layout .bottom-content .temporary-documents .dfwp-list {
-  margin-left: 35px !important;
+  list-style-position: inside;
+  font-size: 20px;
+  font-weight: bold;
 }
 html body .rm-layout .bottom-content .customer-records .dfwp-list li, html body .rm-layout .bottom-content .temporary-documents .dfwp-list li {
   list-style-type: decimal;
+}
+html body .rm-layout .bottom-content .temporary-documents .dfwp-list {
+  margin-left: 10px;
 }
 html body .rm-layout .bottom-content .temporary-documents .dfwp-list li {
   list-style-type: none;
