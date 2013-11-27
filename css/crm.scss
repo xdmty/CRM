@@ -1,0 +1,298 @@
+/******************************************************************************
+88        88              88                                                  
+88        88              88                                                  
+88        88              88                                                  
+88aaaaaaaa88   ,adPPYba,  88  8b,dPPYba,    ,adPPYba,  8b,dPPYba,  ,adPPYba,  
+88""""""""88  a8P_____88  88  88P'    "8a  a8P_____88  88P'   "Y8  I8[    ""  
+88        88  8PP"""""""  88  88       d8  8PP"""""""  88           `"Y8ba,   
+88        88  "8b,   ,aa  88  88b,   ,a8"  "8b,   ,aa  88          aa    ]8I  
+88        88   `"Ybbd8"'  88  88`YbbdP"'    `"Ybbd8"'  88          `"YbbdP"'  
+                              88                                              
+                              88            
+*******************************************************************************/
+
+$light-gray: #ccc;
+	 $black: #000;
+	 $white: #fff;
+	 $segoe: Segoe UI, Helvetica, Arial !important;
+ 	  $dark: #858585;
+  $padd10px: 10px;
+
+/******************************************************************************                                                                           
+88        88                                   88                          
+88        88                                   88                          
+88        88                                   88                          
+88aaaaaaaa88   ,adPPYba,  ,adPPYYba,   ,adPPYb,88   ,adPPYba,  8b,dPPYba,  
+88""""""""88  a8P_____88  ""     `Y8  a8"    `Y88  a8P_____88  88P'   "Y8  
+88        88  8PP"""""""  ,adPPPPP88  8b       88  8PP"""""""  88          
+88        88  "8b,   ,aa  88,    ,88  "8a,   ,d88  "8b,   ,aa  88          
+88        88   `"Ybbd8"'  `"8bbdP"Y8   `"8bbdP"Y8   `"Ybbd8"'  88          
+                                                                                                                                                      
+*******************************************************************************/
+html{
+	font-size:62.5% !important;
+	body{
+		#header{
+			border-bottom: 1px solid $light-gray;
+		    -webkit-box-shadow: 0px 2px 2px 0px $light-gray;
+		    -moz-box-shadow: 0px 2px 2px 0px $light-gray;
+		    box-shadow: 0px 2px 2px 0px $light-gray;
+		    position: relative;
+		    z-index: 1;		
+		}
+		.breadcrumbnav{
+			float: left;
+			a, a:link, a:visited{color: #777 !important;
+			}
+		}
+		.h1-homepage{
+	  		background: #CF0072 !important;
+		}
+		.h1-imgInner{
+			background: url('https://at.avanade.com/PublishingImages/GlobalMap_DARK2.png') no-repeat !important;
+		}
+		.h1-box h1, .rm-layout h1{
+			height: auto;
+			padding: 10px 0;
+			font-weight: normal;
+			font-family: $segoe;
+			font-size: 22px;
+			border-color:#DF57A2;
+		}
+		div#utilitybar div.menus-container span.ms-welcomeMenu{
+			overflow: hidden;
+			letter-spacing: -1px;
+			a.ms-menu-a{
+				padding-left:6px;
+			}
+		}
+		div#utilitybar div.menus-container span.ms-welcomeMenu a.ms-menu-a{
+			width: 180px;
+		}
+		.h1-section4 div.h1-imgInner div.h1-overlap{
+			background-color: transparent;
+		}
+		table#outer-table {
+		    min-width: 1070px;
+		}
+		table#inner-table {
+		    width: 100%;
+		}
+/******************************************************************************                                                                       
+                                                             
+  ,ad8888ba,   88               88                       88  
+ d8"'    `"8b  88               88                       88  
+d8'            88               88                       88  
+88             88   ,adPPYba,   88,dPPYba,   ,adPPYYba,  88  
+88      88888  88  a8"     "8a  88P'    "8a  ""     `Y8  88  
+Y8,        88  88  8b       d8  88       d8  ,adPPPPP88  88  
+ Y8a.    .a88  88  "8a,   ,a8"  88b,   ,a8"  88,    ,88  88  
+  `"Y88888P"   88   `"YbbdP"'   8Y"Ybbd8"'   `"8bbdP"Y8  88  
+                                                             
+*******************************************************************************/
+		.HomeLayout{
+			h2{text-align: center;}
+		}
+		.rm-layout {
+			* {
+				-webkit-box-sizing: border-box; /* Safari/Chrome, other WebKit */
+				-moz-box-sizing: border-box;    /* Firefox, other Gecko */
+				box-sizing: border-box;         /* Opera/IE 8+ */
+			}
+			text-shadow: none !important;
+			color:$dark;						
+			p{font-family:$segoe; font-size:12px;}
+			ul{font-family:$segoe; margin-left: 2.5%;font-size:12px;font-family:$segoe;}
+		    a:link, 
+		    a:visited,
+		    a:hover{font-family:$segoe; color:#009FD8; font-weight:400}
+		    h1{font-family:$segoe; color:#46464A; font-size: 22px; font-weight:400;}
+		    h2{font-family:$segoe; color:#333333; font-size: 15px; font-weight:normal; margin: 10px 0 20px;}
+		    h3{font-family:$segoe; color:$dark; font-size: 12px; font-weight: bold; margin: 20px 0 5px;}
+		    h4,		  
+			h5,
+			h6{font-family:$segoe; font-size: 12px;}			
+			hr{background: #E2E2E2; display: block; height: 1px; margin: 4% 0; width: 100%;}
+
+/******************************************************************************                                                                       
+88                                                                       
+88                                                                ,d     
+88                                                                88     
+88           ,adPPYYba,  8b       d8   ,adPPYba,   88       88  MM88MMM  
+88           ""     `Y8  `8b     d8'  a8"     "8a  88       88    88     
+88           ,adPPPPP88   `8b   d8'   8b       d8  88       88    88     
+88           88,    ,88    `8b,d8'    "8a,   ,a8"  "8a,   ,a88    88,    
+88888888888  `"8bbdP"Y8      Y88'      `"YbbdP"'    `"YbbdP'Y8    "Y888  
+                             d8'                                         
+                            d8'                                          
+*******************************************************************************/		
+			.content-information{
+				width: 75%;
+				float: left;
+				padding: 10px 20px;
+			}
+			.side-bar{
+				width: 25%;
+				float: right;
+				padding:0;
+			}
+			.subcol-inner{
+				padding: 10px 20px;
+				width: 100%;
+			}
+			.slider{
+				margin-bottom: 4%;
+			}
+			.tiles{
+			    overflow: hidden;
+			    clear: both;
+				ul.dfwp-list li .link-item a,
+				.groupheader.item.medium{
+					color: $white;
+					font-family: $segoe;
+				}
+				.item{
+					padding:0px;
+				}
+				.dfwp-list{
+					list-style: outside;
+					li{
+						color: #FFFFFF;
+				    	font-size: 8px;
+				    	margin-left: 15px;
+					}
+				}	
+				.groupheader{
+					font-size: 22px;
+					font-weight: 100;
+					margin-bottom:15px;
+					line-height: 1em;
+					font-family: $segoe;
+				}
+				.purple{
+				    background-color: #D41980;
+				    float: left;
+				    height: 332px;
+				    margin-right: 1%;				   
+				    width: 33%;
+				    position:relative;
+				    padding:15px 25px;
+				    img[id^="MSOImageWebPart"]{
+						position:absolute;
+						bottom:0;
+						left: 0;
+						width: 100%;
+					}
+				}
+				.wrapper {
+				    float: left;
+				    margin-bottom: 1%;
+				    width: 66%;
+				}
+				.orange {
+				    background-color: #FD5500;
+				    float: left;
+				    height: 163px;
+				    margin-right: 1.5%;				   
+				    width: 49.25%;
+				    padding:15px 25px;
+				}
+				.blue {
+				    background: #009FDA;
+				    float: right;
+				    height: 163px;				   
+				    width: 49.25%;
+				    padding:15px 25px;
+				}
+				.green {
+				    background:#238622;
+				    float: right;				   
+				    width: 66%;
+				    position:relative;
+				    height:162px;
+				    padding:15px 25px;
+				 	img[id^="MSOImageWebPart"]{
+						position:absolute;
+						top:0;
+						right: 0;						
+					}			    
+				}
+
+			}	
+/******************************************************************************                                                                     
+88888888ba                                                                      
+88      "8b                 ,d       ,d                                         
+88      ,8P                 88       88                                         
+88aaaaaa8P'  88       88  MM88MMM  MM88MMM  ,adPPYba,   8b,dPPYba,   ,adPPYba,  
+88""""""8b,  88       88    88       88    a8"     "8a  88P'   `"8a  I8[    ""  
+88      `8b  88       88    88       88    8b       d8  88       88   `"Y8ba,   
+88      a8P  "8a,   ,a88    88,      88,   "8a,   ,a8"  88       88  aa    ]8I  
+88888888P"    `"YbbdP'Y8    "Y888    "Y888  `"YbbdP"'   88       88  `"YbbdP"'  
+*******************************************************************************/	
+			a.green-button, a.blue-button{
+				float: left;
+			    padding:25px 10px;
+			    text-align: center;
+			    width:49.5%;
+			    color: $white;
+			    font-size: 14px;
+			    font-weight: 600;
+			    text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.45);
+			    &:hover{
+			    	text-decoration: none;
+			    }
+			}
+			.green-button{
+				margin-right: 1%;
+				border-bottom:solid 1px #124411;
+				background: #2cae2b; /* Old browsers */
+				/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzJjYWUyYiIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiMyMzg2MjIiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+				background: -moz-linear-gradient(top, #2cae2b 0%, #238622 100%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#2cae2b), color-stop(100%,#238622)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top, #2cae2b 0%,#238622 100%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top, #2cae2b 0%,#238622 100%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top, #2cae2b 0%,#238622 100%); /* IE10+ */
+				background: linear-gradient(to bottom, #2cae2b 0%,#238622 100%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2cae2b', endColorstr='#238622',GradientType=0 ); /* IE6-8 */
+				&:hover{
+					background: #218220; /* Old browsers */
+					/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+					background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzIxODIyMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzFiNjcxYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+					background: -moz-linear-gradient(top,  #218220 0%, #1b671a 99%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#218220), color-stop(99%,#1b671a)); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(top,  #218220 0%,#1b671a 99%); /* Chrome10+,Safari5.1+ */
+					background: -o-linear-gradient(top,  #218220 0%,#1b671a 99%); /* Opera 11.10+ */
+					background: -ms-linear-gradient(top,  #218220 0%,#1b671a 99%); /* IE10+ */
+					background: linear-gradient(to bottom,  #218220 0%,#1b671a 99%); /* W3C */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#218220', endColorstr='#1b671a',GradientType=0 ); /* IE6-8 */
+				}
+			}
+			.blue-button{
+				border-bottom:solid 1px #004762;				
+				background: #009fda; /* Old browsers */
+				/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+				background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOWZkYSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk5JSIgc3RvcC1jb2xvcj0iIzAwOGRjNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+				background: -moz-linear-gradient(top,  #009fda 0%, #008dc4 99%); /* FF3.6+ */
+				background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#009fda), color-stop(99%,#008dc4)); /* Chrome,Safari4+ */
+				background: -webkit-linear-gradient(top,  #009fda 0%,#008dc4 99%); /* Chrome10+,Safari5.1+ */
+				background: -o-linear-gradient(top,  #009fda 0%,#008dc4 99%); /* Opera 11.10+ */
+				background: -ms-linear-gradient(top,  #009fda 0%,#008dc4 99%); /* IE10+ */
+				background: linear-gradient(to bottom,  #009fda 0%,#008dc4 99%); /* W3C */
+				filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#009fda', endColorstr='#008dc4',GradientType=0 ); /* IE6-8 */
+				&:hover{
+					background: #008dc4; /* Old browsers */
+					/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+					background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwOGRjNCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9Ijk4JSIgc3RvcC1jb2xvcj0iIzAwNzdhMyIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgPC9saW5lYXJHcmFkaWVudD4KICA8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMSIgaGVpZ2h0PSIxIiBmaWxsPSJ1cmwoI2dyYWQtdWNnZy1nZW5lcmF0ZWQpIiAvPgo8L3N2Zz4=);
+					background: -moz-linear-gradient(top,  #008dc4 0%, #0077a3 98%); /* FF3.6+ */
+					background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#008dc4), color-stop(98%,#0077a3)); /* Chrome,Safari4+ */
+					background: -webkit-linear-gradient(top,  #008dc4 0%,#0077a3 98%); /* Chrome10+,Safari5.1+ */
+					background: -o-linear-gradient(top,  #008dc4 0%,#0077a3 98%); /* Opera 11.10+ */
+					background: -ms-linear-gradient(top,  #008dc4 0%,#0077a3 98%); /* IE10+ */
+					background: linear-gradient(to bottom,  #008dc4 0%,#0077a3 98%); /* W3C */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#008dc4', endColorstr='#0077a3',GradientType=0 ); /* IE6-8 */
+				}
+			}			
+		}
+	}	
+}
